@@ -12,13 +12,14 @@ export const InputCheckbox: InputCheckboxComponent = ({ id, checked = false, dis
           "RampInputCheckbox--label-checked": checked,
           "RampInputCheckbox--label-disabled": disabled,
         })}
+        htmlFor={inputId}
       />
       <input
         id={inputId}
         type="checkbox"
         className="RampInputCheckbox--input"
+        //Bug2 Fixed
         checked={checked}
-        disabled={disabled}
         onChange={() => onChange(!checked)}
       />
     </div>
