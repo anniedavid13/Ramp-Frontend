@@ -80,7 +80,7 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Actual:** Options dropdown stays in the same position as you scroll the page, losing the reference to the select input
 
-# Bug 2: Approve checkbox not working
+# Bug 2: Approve checkbox not working (done)
 
 **How to reproduce:**
 
@@ -90,7 +90,7 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Actual:** Nothing happens
 
-# Bug 3: Cannot select _All Employees_ after selecting an employee
+# Bug 3: Cannot select _All Employees_ after selecting an employee (done)
 
 **How to reproduce:**
 
@@ -103,7 +103,7 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Actual:** The page crashes
 
-# Bug 4: Clicking on View More button not showing correct data
+# Bug 4: Clicking on View More button not showing correct data 
 
 **How to reproduce:**
 
@@ -170,7 +170,7 @@ _This bug has 2 wrong behaviors that can be fixed with the same solution. It's a
 
 **Actual:** When you reach the end of the data, the **View More** button is still showing and you are still able to click the button. If you click it, the page crashes.
 
-# Bug 7: Approving a transaction won't persist the new value
+# Bug 7: Approving a transaction won't persist the new value (fixed)
 
 _You need to fix some of the previous bugs in order to reproduce_
 
